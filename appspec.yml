@@ -8,8 +8,9 @@ files:
   - source: /
     destination: /app
     overwrite: true
+    
+file_exists_behavior: OVERWRITE    
    
-
 permissions:
   - object: /
     pattern: "**"
