@@ -7,7 +7,7 @@ os: linux
 files:
   - source: /
     destination: /app
-    overwrite: purge
+    overwrite: true
    
 
 permissions:
